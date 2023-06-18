@@ -28,7 +28,7 @@ params:
         title: Phone
   custom_css: []
   custom_js: []
-  description: This is an incredible website I created from the 1st attempt
+  description: This  incredible website I created from the 1st attempt
   error404:
     heading: Page couldn't be found, Gosh! WHY????? 
     text: Please visit [this page](/)
@@ -69,7 +69,7 @@ params:
       - name: Home
         url: '#'
       - name: Blogs
-        url: blogs
+        url: blogs/risk_return
       # - name: Generic Blog
       #   url: blogs/ipsum
       # - name: Elements
@@ -92,18 +92,18 @@ params:
         subtitle: Lorem Etiam Nullam
         title: Magna
         url: blogs/magna
-      - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
-        url: blogs/ipsum
-      - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
-      - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+  #     - image: pic04.jpg
+  #       subtitle: Nisl Sed Aliquam
+  #       title: Ipsum
+  #       url: blogs/ipsum
+  #     - image: pic05.jpg
+  #       subtitle: Ipsum Dolor Sit Amet
+  #       title: Consequat
+  #       url: blogs/ipsum
+  #     - image: pic06.jpg
+  #       subtitle: Feugiat Amet Tempus
+  #       title: Etiam
+  #       url: blogs/ipsum
   two:
     buttonText: Get Started
     enable: yes
@@ -113,8 +113,3 @@ params:
     as a research analyst at the University of British Columbia."
     title: Short Bio
     url: blogs
-
-markup: 
-  goldmark: 
-    renderer: 
-      unsafe: true
