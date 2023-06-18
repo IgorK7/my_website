@@ -10,53 +10,52 @@ params:
     subtitle: |-
 #      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
 #      AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Forty
+    title: Igor Kuznetsov. Website. Portfolio.
   blog: {}
   contact:
     address:
-      - city: City, ST 00000
-        country: Country
-        street: Street
-        title: Address
+      - city: London, NW1
+        street: Regents Park
+        title: London Business School
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: example@domain.com
+      - email: ikuznetsov@london.edu
         title: Email
     enable: yes
     phone:
-      - phone: (000) 000-0000 x1234
+      - phone: (012) 345-6789 x1234
         title: Phone
   custom_css: []
   custom_js: []
-  description: Your description
+  description: This is an incredible website I created from the 1st attempt
   error404:
-    heading: Page couldn't be found
+    heading: Page couldn't be found, Gosh! WHY????? 
     text: Please visit [this page](/)
   favicon: favicon.ico
   footer:
-    copyright: Company Name
+    copyright: John Doe Co
     enable: yes
     quicklinks:
       - alt: HTML5 UP
         text: 'Design: '
         url: https://www.html5up.net
     social:
-      - icon: fa-twitter
-        label: Twitter
-        url: https://www.twitter.com
-      - icon: fa-facebook
-        label: Facebook
-        url: https://www.facebook.com
-      - icon: fa-instagram
-        label: Instagram
-        url: https://www.instagram.com
-      - icon: fa-github
-        label: GitHub
-        url: https://www.github.com
-      - icon: fa-linkedin
-        label: LinkedIn
-        url: https://www.linkedin.com
+      # - icon: fa-twitter
+      #   label: Twitter
+      #   url: https://www.twitter.com
+      # - icon: fa-facebook
+      #   label: Facebook
+      #   url: https://www.facebook.com
+      # - icon: fa-instagram
+      #   label: Instagram
+      #   url: https://www.instagram.com
+      # - icon: fa-github
+      #   label: GitHub
+      #   url: https://www.github.com
+      # - icon: fa-linkedin
+      #   label: LinkedIn
+      #   url: https://www.linkedin.com
   image: ''
   name: Your name
   navigation:
@@ -71,10 +70,10 @@ params:
         url: '#'
       - name: Blogs
         url: blogs
-      - name: Generic Blog
-        url: blogs/ipsum
-      - name: Elements
-        url: elements.html
+      # - name: Generic Blog
+      #   url: blogs/ipsum
+      # - name: Elements
+      #   url: elements.html
     menu: Menu
     subtitle: By HTML5 Up
     title: Forty
@@ -116,3 +115,8 @@ params:
       amet pharetra et feugiat tempus."
     title: Massa libero
     url: blogs
+
+markup: 
+  goldmark: 
+    renderer: 
+      unsafe: true
